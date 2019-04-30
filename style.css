@@ -1,0 +1,70 @@
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	font-size: 12px;
+	font-family: 'Roboto', sans-serif;
+}
+
+li	{
+	font-size: 1.5rem
+
+}
+
+nav {
+	background-color: #FF6B6B;
+	color: black;
+}
+
+
+nav ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+nav ul li {
+	padding: 18px;
+	text-align: center;
+	transition: background-color 0.5s, padding 1s linear;
+}
+
+
+nav ul li:hover {
+	background-color: #E92525;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 900px){
+	nav ul {
+		text-align: right;
+		padding: 0;
+		margin: 0;
+	}
+
+	nav ul li {
+		display: inline-block;
+		text-align: right;
+
+	}
+}
